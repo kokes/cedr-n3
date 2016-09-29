@@ -1,0 +1,1 @@
+stahování a pár statistik raw dat v první vlně (podzim 2016)
