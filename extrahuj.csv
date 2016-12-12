@@ -1,0 +1,4 @@
+targz,soubor,chcem,cil
+data/Dotace.n3.tar.gz,./cedr/Dotace.n3,"zmenaSmlouvaIndikator, zaznamPlatnostDatum, zaznamIdentifikator, zaznamAktualizaceDatumCas, smlouvaPodpisDatum, projektIdentifikator, projektNazev",csv/dotace.csv
+./data/PrijemcePomoci.n3.tar.gz,./cedr/PrijemcePomoci.n3,"zaznamPlatnostDatum, zaznamIdentifikator, zaznamAktualizaceDatumCas, jeRegistrovanSPravniFormou, jePrislusnikStatu, obchodniJmeno, ico, jmeno, prijmeni, dic",csv/prijemce.csv
+./data/Rozhodnuti.n3.tar.gz,./cedr/Rozhodnuti.n3,"zaznamPlatnostDatum, zaznamIdentifikator, zaznamAktualizaceDatumCas, rokRozhodnuti, navratnostIndikator, menaKod, investiceIndikator, financovanoZeZdroje, financniProstredekCleneni, dotaciPoskytl, castkaRozhodnuta",csv/rozhodnuti.csv
