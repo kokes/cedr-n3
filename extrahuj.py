@@ -1,7 +1,6 @@
 from glob import glob
 import csv
 import tarfile
-import io
 import os
 import gzip
 from collections import defaultdict, OrderedDict
@@ -52,14 +51,14 @@ def extrahuj(ff, chces, tfn):
     ret = dict()
     counts = defaultdict(lambda: 0) # (int) by stacilo, ne?
     
-    fb = io.StringIO(newline='')
+    fb = open(tfn, 'w')
     # jen header
     w = csv.writer(fb)
     w.writerow(chces)
     
     for j, ln in enumerate(ff):
         if j % (1000*100) == 0: print('%s: %d' % (tfn, j), end='\r')
-        if j>0 and j % (1000*100) == 0:
+        if j>0 and j % (1000*1000) == 0:
             kc = list(counts.keys()) # protoze budem menit
             for k in kc:
                 if counts[k] != lc: continue # jeste nemame vse
@@ -101,8 +100,7 @@ def extrahuj(ff, chces, tfn):
     for j,k in ret.items():
         w.writerow(k.values())
         
-    with open(tfn, 'w') as f:
-        f.write(fb.getvalue())
+    fb.close()
 
 
 def cti_vazby(ff, slvs, tfn):

@@ -12,7 +12,6 @@ Pár informací bokem:
 
 - Vlastnosti v daných tabulkách nejsou vždy kompletní - tj. některé vlastnosti nejsou přítomny pro všechny řádky. Např. je 1577627 dotací, ale jen 294098 má název projektu. Podrobné statistiky toho, co je a co není, najdete [tady](stahuj/_freq.txt). Já vytahuji jen několik málo vlastností (většinou ty, které jsou ve všech záznamech), je ale možné tento seznam sloupců rozšířit, stačí změnit onen [ovládací soubor](extrahuj.csv)
 - Během parsování se ukazuje, kolik řádků `n3` souboru se už zpracovalo. U těch větších datasetů to jde do desítek milionů, podrobnější čísla [tutaj](stahuj/_stats.txt).
-- Teď koukám, že mi to všechno píše do bufferu v paměti (hledej `StringIO` v [extrahuj.py](extrahuj.py)), protože sem to pouštěl na stroji se spoustou paměti. Bude ale lepší to nějak prohodit za psaní do disku, pokud paměť nemáte.
 - Celé to běží na Pythonu 3 bez jakýchkoliv externích knihoven. Na stažení a konvertování původních dat budete potřebovat něco jako `wget` a `arepack`. Na Unixech to existuje běžně, na Windows stačí Cygwin (nebo ten nový bash ve Windows 10).
 - Nepoužívám RDF knihovny, protože jsou tuze pomalé (byť korektnější) a já potřeboval něco podobně rychlé jako IO.
 - Ano, jde to exportovat pomocí SparQL samotného, ale na to je potřeba běžící SparQL server. Ten od MFČR nám tohle nedá a provozovat něco vlastního je pomalejší než pustit jeden krátký skript nad dumpem.
