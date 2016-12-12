@@ -6,4 +6,6 @@ Nabízeny jsou dva typy souborů - samotná data a číselníky. Číselníky js
 
 Jako první je tedy třeba stáhnout všechna data z odkazů, které jsou uvedeny ve [_stahuj.txt](_stahuj.txt) (např. skrz `wget`). Jelikož jde o 7zip, který nejde nativně v Pythonu zpracovat, použil jsem `arepack` na přeložení všech archivů do `tar.gz`, nemotorný bash skript je v [_repack.sh](_repack.sh).
 
+(Stažení nemusí být takhle explicitní. Jindra napsal užitečný [skript](https://gist.github.com/jindrichmynarz/ee1a011104244e2ec0d0c0d386d8cb49), který dotazuje SparQL server a získává všechny potřebné URL.)
+
 V tomto stádiu jsou data připravena k dalšímu zpracování.
