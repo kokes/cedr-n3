@@ -14,7 +14,7 @@ Pár informací bokem:
 - Během parsování se ukazuje, kolik řádků `n3` souboru se už zpracovalo. U těch větších datasetů to jde do desítek milionů, podrobnější čísla [tutaj](stahuj/_stats.txt).
 - Celé to běží na Pythonu 3 bez jakýchkoliv externích knihoven. Na stažení a konvertování původních dat budete potřebovat něco jako `wget` a `arepack`. Na Unixech to existuje běžně, na Windows stačí Cygwin (nebo ten nový bash ve Windows 10).
 - Nepoužívám RDF knihovny, protože jsou tuze pomalé (byť korektnější) a já potřeboval něco podobně rychlé jako IO.
-- Ano, jde to exportovat pomocí SparQL samotného, ale na to je potřeba běžící SparQL server. Ten od MFČR nám tohle nedá a provozovat něco vlastního je pomalejší než pustit jeden krátký skript nad dumpem.
+- Ano, jde to exportovat pomocí [SPARQL](http://www.cambridgesemantics.com/semantic-university/sparql-by-example) samotného, ale na to je potřeba běžící SPARQL server. Ten od MFČR nám tohle nedá a provozovat něco vlastního je pomalejší než pustit jeden krátký skript nad dumpem.
 - Časem nejspíš bude MFČR poskytovat tyto CSV dumpy samo, do té doby se tyhle kódy mohou hodit.
 - Co se týče licencí, tak dejme tomu že volná, bez záruk a atribuční. Takže si to používejte dle libosti, ale za nic nemůžu a jestli z toho něco vznikne, tak nalinkujte tohle repo.
 
