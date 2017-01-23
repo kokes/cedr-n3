@@ -1,529 +1,528 @@
 ==> AdresaSidlo.txt <==
-1198174 type>
- 599087 zaznamPlatnostDatum>
- 599087 zaznamIdentifikator>
- 599087 zaznamAktualizaceDatumCas>
- 599087 nachaziSeNaUzemiStatu>
- 599087 adresaKvalifikatorKod>
- 598832 psc>
- 598829 objektCisloDomovni>
- 586708 <http://purl.org/dc/terms/title>
- 586455 obecNazev>
- 586455 obecKod>
- 586455 obec>
- 586449 castObceKod>
- 421709 uliceNazev>
- 252996 adresniMistoKod>
- 137909 uliceKod>
- 131427 mestskyObvodMestskaCastKod>
- 131416 mestskyObvodMestskaCastNazev>
- 131416 mestskyObvodMestskaCast>
- 129789 objektCisloOrientacni>
-    253 adresaText>
-      2 Tirana
-      2 Alb\u00e1nie"@cs
+607331 zaznamPlatnostDatum>
+607331 zaznamIdentifikator>
+607331 zaznamAktualizaceDatumCas>
+607331 nachaziSeNaUzemiStatu>
+607331 adresaKvalifikatorKod>
+607073 psc>
+607068 objektCisloDomovni>
+594952 <http://purl.org/dc/terms/title>
+594696 obecNazev>
+594696 obecKod>
+594696 obec>
+594688 castObceKod>
+428649 uliceNazev>
+260958 adresniMistoKod>
+144639 uliceKod>
+134486 mestskyObvodMestskaCastKod>
+134475 mestskyObvodMestskaCastNazev>
+134475 mestskyObvodMestskaCast>
+129907 objektCisloOrientacni>
+1214662 type>
+ 256 adresaText>
+   2 Tirana
+   2 Alb\u00e1nie"@cs
 
 ==> AdresaTrvaleBydliste.txt <==
- 836180 type>
- 418090 zaznamPlatnostDatum>
- 418090 zaznamIdentifikator>
- 418090 zaznamAktualizaceDatumCas>
- 418090 nachaziSeNaUzemiStatu>
- 418090 adresaKvalifikatorKod>
- 416830 psc>
- 403187 <http://purl.org/dc/terms/title>
- 403169 obecNazev>
- 403169 obecKod>
- 403169 obec>
+860684 type>
+430342 zaznamPlatnostDatum>
+430342 zaznamIdentifikator>
+430342 zaznamAktualizaceDatumCas>
+430342 nachaziSeNaUzemiStatu>
+430342 adresaKvalifikatorKod>
+415439 <http://purl.org/dc/terms/title>
+415419 obecNazev>
+415419 obecKod>
+415419 obec>
+
+==> CizinecFO.txt <==
+ 248 type>
+ 124 <http://purl.org/dc/terms/title>
+
+==> CizinecFOP.txt <==
+ 114 type>
+  38 <http://purl.org/dc/terms/title>
+
+==> CizinecPO.txt <==
+ 650 type>
+ 325 <http://purl.org/dc/terms/title>
+
+==> Dotace.txt <==
+917374 subjektRozliseniKod>
+88431 zahajeniPlanovaneDatum>
+88188 ukonceniPlanovaneDatum>
+815482 podaniDatum>
+66146 priorita>
+66146 opatreni>
+5326 podprogram>
+50119 clenenNaEtapu>
+47654 realizovanNaUzemi>
+3937 projektNadrizenyIdentifikator>
+222799 zahajeniSkutecneDatum>
+220556 projektNazev>
+1987053 byloRozhodnuto>
+190582 ukonceniSkutecneDatum>
+1556288 zmenaSmlouvaIndikator>
+1556288 zaznamPlatnostDatum>
+1556288 zaznamIdentifikator>
+1556288 zaznamAktualizaceDatumCas>
+1556288 type>
+1556288 smlouvaPodpisDatum>
+1556288 projektIdentifikator>
+1556288 <http://purl.org/dc/terms/title>
+1548811 projektKod>
+13026 podOpatreni>
+111799 operacniProgram>
+1035 grantoveSchema>
+ 608 poznamka>
+
+==> Etapa.txt <==
+50119 zaznamIdentifikator>
+50119 zaznamAktualizaceDatumCas>
+50119 zahajeniPlanovaneDatum>
+50119 ukonceniPlanovaneDatum>
+50119 type>
+50119 etapaNazev>
+50119 etapaIdentifikator>
+50119 <http://purl.org/dc/terms/title>
+50034 zahajeniSkutecneDatum>
+50034 ukonceniSkutecneDatum>
+48318 poznamka>
+
+==> FyzickaOsoba.txt <==
+71717 <http://purl.org/dc/terms/title>
+143434 type>
+
+==> FyzickaOsobaPodnikajici.txt <==
+356404 <http://purl.org/dc/terms/title>
+1069440 type>
+
+==> PravnickaOsoba.txt <==
+614101 <http://purl.org/dc/terms/title>
+1228202 type>
+
+==> PrijemcePomoci.txt <==
+973246 obchodniJmeno>
+973246 legalName>
+940321 ico>
+6862 dic>
+607331 sidliNaAdrese>
+430342 maTrvaleBydlisteNaAdrese>
+428343 prijmeni>
+428343 jmeno>
+428343 <http://xmlns.com/foaf/0.1/lastName>
+428343 <http://xmlns.com/foaf/0.1/firstName>
+343418 narozeniRok>
+1556288 obdrzelDotaci>
+1044980 zaznamPlatnostDatum>
+1044980 zaznamIdentifikator>
+1044980 zaznamAktualizaceDatumCas>
+1044980 type>
+1044980 jeRegistrovanSPravniFormou>
+1044980 jePrislusnikStatu>
+
+==> PrijemcePomociAres.txt <==
+940321 sameAs>
+
+==> PrijemcePomociRob.txt <==
+697834 sameAs>
+
+==> Rozhodnuti.txt <==
+905175 castkaPozadovana>
+2214481 rozpoctoveObdobi>
+2073393 zaznamPlatnostDatum>
+2073393 zaznamIdentifikator>
+2073393 zaznamAktualizaceDatumCas>
+2073393 type>
+2073393 rokRozhodnuti>
+2073393 refRozhodnutiRok>
+2073393 navratnostIndikator>
+2073393 menaKod>
+2073393 investiceIndikator>
+2073393 financovanoZeZdroje>
+2073393 financniProstredekCleneni>
+2073393 dotaciPoskytl>
+2073389 castkaRozhodnuta>
+2073389 <http://purl.org/dc/terms/title>
+1975710 maSmlouvuORozhodnuti>
+ 791 splatkaKalendar>
+
+==> RozhodnutiSmlouva.txt <==
+1975710 zaznamIdentifikator>
+1975710 zaznamAktualizaceDatumCas>
+1975710 type>
+1975710 rozhodnutiDatum>
+1975710 dokumentDruhKod>
+1975710 cisloJednaciRozhodnuti>
+1975710 <http://purl.org/dc/terms/title>
+
+==> RozpoctoveObdobi.txt <==
+42699 ucelZnak>
+25557 castkaVracena>
+2214481 zaznamPlatnostDatum>
+2214481 zaznamIdentifikator>
+2214481 zaznamAktualizaceDatumCas>
+2214481 type>
+2214481 rozpocetObdobi>
+2214481 refRozpoctoveObdobi>
+2214481 menaKod>
+2214481 <http://purl.org/dc/terms/title>
+2211785 castkaUvolnena>
+2208065 castkaCerpana>
+2141545 castkaSpotrebovana>
+1718924 dotaceTitul>
+
+==> SplatkaKalendar.txt <==
+ 791 zaznamIdentifikator>
+ 791 zaznamAktualizaceDatumCas>
+ 791 uroceniIndikator>
+ 791 type>
+ 791 castkaSplatkaSkutecna>
+ 791 castkaSplatkaPlanovana>
+
+==> UzemniRealizace.txt <==
+91271 zaznamPlatnostDatum>
+91271 zaznamIdentifikator>
+91271 zaznamAktualizaceDatumCas>
+91271 type>
+91271 okresNutsKod>
 
 ==> ciselnikCinnostTypCiselnikv01.txt <==
 
 ==> ciselnikCinnostTypvCEDR01.txt <==
 
 ==> ciselnikDotacePoskytovatelv01.txt <==
-    300 type>
-    150 zaznamPlatnostOdDatum>
-    150 zaznamPlatnostDoDatum>
-    150 prefLabel>
-    150 inScheme>
-    150 dotacePoskytovatelNazev>
-    150 dotacePoskytovatelKod>
-    150 dotacePoskytovatelCiselnikAxisDotacePoskytovatelKod>
-    150 <http://purl.org/dc/terms/title>
+ 300 type>
+ 150 zaznamPlatnostOdDatum>
+ 150 zaznamPlatnostDoDatum>
+ 150 prefLabel>
+ 150 inScheme>
+ 150 dotacePoskytovatelNazev>
+ 150 dotacePoskytovatelKod>
+ 150 dotacePoskytovatelCiselnikAxisDotacePoskytovatelKod>
+ 150 <http://purl.org/dc/terms/title>
 
 ==> ciselnikDotaceTitulCiselnikAxisDotaceTitulKodv01.txt <==
-  11197 type>
-  11197 dotaceTitulKod>
-  11197 dotaceTitul>
+11278 type>
+11278 dotaceTitulKod>
+11278 dotaceTitul>
 
 ==> ciselnikDotaceTitulCiselnikv01.txt <==
-  22393 type>
-  11197 dotaceTitul>
-  11196 <http://purl.org/dc/terms/description>
-  11195 <http://purl.org/dc/terms/title>
+22555 type>
+11278 dotaceTitul>
+11277 <http://purl.org/dc/terms/description>
+11276 <http://purl.org/dc/terms/title>
 
 ==> ciselnikDotaceTitulParagrafv01.txt <==
-  11075 zaznamPlatnostDatum>
-  11075 rozpoctovaSkladbaParagraf>
+11161 zaznamPlatnostDatum>
+11161 rozpoctovaSkladbaParagraf>
 
 ==> ciselnikDotaceTitulPolozkav01.txt <==
-  22101 zaznamPlatnostDatum>
-  22101 rozpoctovaSkladbaPolozka>
+22384 zaznamPlatnostDatum>
+22384 rozpoctovaSkladbaPolozka>
 
 ==> ciselnikDotaceTitulUkazatelv01.txt <==
-  11197 zaznamPlatnostDatum>
-  11197 statniRozpocetUkazatel>
+11278 zaznamPlatnostDatum>
+11278 statniRozpocetUkazatel>
 
 ==> ciselnikDotaceTitulv01.txt <==
-  22394 type>
-  11197 zaznamPlatnostOdDatum>
-  11197 zaznamPlatnostDoDatum>
-  11197 statniRozpocetKapitolaKod>
-  11197 statniRozpocetKapitolaCiselnikAxisKapitolaKod>
-  11197 prefLabel>
-  11197 inScheme>
-  11197 dotaceTitulVlastniKod>
-  11197 dotaceTitulNazevZkraceny>
-  11197 dotaceTitulNazev>
-  11197 dotaceTitulKod>
-  11197 dotaceTitulCiselnikAxisDotaceTitulKod>
-  11197 <http://purl.org/dc/terms/title>
+22556 type>
+11278 zaznamPlatnostOdDatum>
+11278 zaznamPlatnostDoDatum>
+11278 statniRozpocetKapitolaKod>
+11278 statniRozpocetKapitolaCiselnikAxisKapitolaKod>
+11278 prefLabel>
+11278 inScheme>
+11278 dotaceTitulVlastniKod>
+11278 dotaceTitulNazevZkraceny>
+11278 dotaceTitulNazev>
+11278 dotaceTitulKod>
+11278 dotaceTitulCiselnikAxisDotaceTitulKod>
+11278 <http://purl.org/dc/terms/title>
 
 ==> ciselnikFinancniProstredekCleneniCiselnikAxisFinancniProstredekCleneniKodv01.txt <==
-     18 type>
-     18 financniProstredekCleneniKod>
-     18 financniProstredekCleneni>
+  18 type>
+  18 financniProstredekCleneniKod>
+  18 financniProstredekCleneni>
 
 ==> ciselnikFinancniProstredekCleneniCiselnikv01.txt <==
-     36 type>
-     18 financniProstredekCleneni>
-     18 <http://purl.org/dc/terms/title>
-     18 <http://purl.org/dc/terms/description>
+  36 type>
+  18 financniProstredekCleneni>
+  18 <http://purl.org/dc/terms/title>
+  18 <http://purl.org/dc/terms/description>
 
 ==> ciselnikFinancniProstredekCleneniv01.txt <==
-     36 type>
-     18 zaznamPlatnostOdDatum>
-     18 zaznamPlatnostDoDatum>
-     18 prefLabel>
-     18 inScheme>
-     18 financniProstredekCleneniNazev>
-     18 financniProstredekCleneniKod>
-     18 financniProstredekCleneniCiselnikAxisFinancniProstredekCleneniKod>
-     18 <http://purl.org/dc/terms/title>
+  36 type>
+  18 zaznamPlatnostOdDatum>
+  18 zaznamPlatnostDoDatum>
+  18 prefLabel>
+  18 inScheme>
+  18 financniProstredekCleneniNazev>
+  18 financniProstredekCleneniKod>
+  18 financniProstredekCleneniCiselnikAxisFinancniProstredekCleneniKod>
+  18 <http://purl.org/dc/terms/title>
 
 ==> ciselnikFinancniZdrojCiselnikAxisFinancniZdrojKodv01.txt <==
-    114 type>
-    114 financniZdrojKod>
-    114 financniZdroj>
+ 114 type>
+ 114 financniZdrojKod>
+ 114 financniZdroj>
 
 ==> ciselnikFinancniZdrojCiselnikv01.txt <==
-    228 type>
-    114 financniZdroj>
-    114 <http://purl.org/dc/terms/title>
-    114 <http://purl.org/dc/terms/description>
+ 228 type>
+ 114 financniZdroj>
+ 114 <http://purl.org/dc/terms/title>
+ 114 <http://purl.org/dc/terms/description>
 
 ==> ciselnikFinancniZdrojv01.txt <==
-    228 type>
-    114 zaznamPlatnostOdDatum>
-    114 zaznamPlatnostDoDatum>
-    114 prefLabel>
-    114 inScheme>
-    114 financniZdrojNazev>
-    114 financniZdrojKod>
-    114 financniZdrojCiselnikAxisFinancniZdrojKod>
-    114 <http://purl.org/dc/terms/title>
-    112 financniZdrojNadrizenyKod>
+ 228 type>
+ 114 zaznamPlatnostOdDatum>
+ 114 zaznamPlatnostDoDatum>
+ 114 prefLabel>
+ 114 inScheme>
+ 114 financniZdrojNazev>
+ 114 financniZdrojKod>
+ 114 financniZdrojCiselnikAxisFinancniZdrojKod>
+ 114 <http://purl.org/dc/terms/title>
+ 112 financniZdrojNadrizenyKod>
 
 ==> ciselnikGrantoveSchemaCEDRv01.txt <==
-     10 type>
-      5 zaznamPlatnostOdDatum>
-      5 zaznamPlatnostDoDatum>
-      5 zaznamIdentifikator>
-      5 prefLabel>
-      5 inScheme>
-      5 grantoveSchemaNazev>
-      5 grantoveSchemaKod>
-      5 grantoveSchemaCislo>
-      5 <http://purl.org/dc/terms/title>
+  10 type>
+   5 zaznamPlatnostOdDatum>
+   5 zaznamPlatnostDoDatum>
+   5 zaznamIdentifikator>
+   5 prefLabel>
+   5 inScheme>
+   5 grantoveSchemaNazev>
+   5 grantoveSchemaKod>
+   5 grantoveSchemaCislo>
+   5 <http://purl.org/dc/terms/title>
 
 ==> ciselnikGrantoveSchemaCiselnikv01.txt <==
-     10 type>
-      5 grantoveSchema>
-      5 <http://purl.org/dc/terms/title>
-      5 <http://purl.org/dc/terms/description>
+  10 type>
+   5 grantoveSchema>
+   5 <http://purl.org/dc/terms/title>
+   5 <http://purl.org/dc/terms/description>
 
 ==> ciselnikOpatreniCiselnikv01.txt <==
-    488 type>
-    244 priorita>
-    244 <http://purl.org/dc/terms/title>
-    244 <http://purl.org/dc/terms/description>
+ 340 type>
+ 170 priorita>
+ 170 <http://purl.org/dc/terms/title>
+ 170 <http://purl.org/dc/terms/description>
 
 ==> ciselnikOpatrenivCEDR01.txt <==
-    488 type>
-    244 zaznamPlatnostOdDatum>
-    244 zaznamPlatnostDoDatum>
-    244 zaznamIdentifikator>
-    244 prefLabel>
-    244 opatreniNazev>
-    244 opatreniKod>
-    244 inScheme>
-    244 <http://purl.org/dc/terms/title>
-     32 podOpatreni>
-      9 opatreniCislo>
+ 340 type>
+ 170 zaznamPlatnostOdDatum>
+ 170 zaznamPlatnostDoDatum>
+ 170 zaznamIdentifikator>
+ 170 prefLabel>
+ 170 opatreniNazev>
+ 170 opatreniKod>
+ 170 inScheme>
+ 170 <http://purl.org/dc/terms/title>
+  32 podOpatreni>
+   9 opatreniCislo>
 
 ==> ciselnikOperacniProgramCEDRv01.txt <==
-     76 priorita>
-     70 type>
-     35 zaznamPlatnostOdDatum>
-     35 zaznamPlatnostDoDatum>
-     35 zaznamIdentifikator>
-     35 prefLabel>
-     35 operacaniProgramNazev>
-     35 operacaniProgramKod>
-     35 inScheme>
-     35 <http://purl.org/dc/terms/title>
-      3 operacaniProgramCislo>
+  44 type>
+  35 priorita>
+  22 zaznamPlatnostOdDatum>
+  22 zaznamPlatnostDoDatum>
+  22 zaznamIdentifikator>
+  22 prefLabel>
+  22 operacaniProgramNazev>
+  22 operacaniProgramKod>
+  22 inScheme>
+  22 <http://purl.org/dc/terms/title>
+   3 operacaniProgramCislo>
 
 ==> ciselnikOperacniProgramCiselnikv01.txt <==
-     70 type>
-     35 operacniProgram>
-     35 <http://purl.org/dc/terms/title>
-     35 <http://purl.org/dc/terms/description>
+  44 type>
+  22 operacniProgram>
+  22 <http://purl.org/dc/terms/title>
+  22 <http://purl.org/dc/terms/description>
 
 ==> ciselnikPodOpatreniCEDRv01.txt <==
-     64 type>
-     32 zaznamPlatnostOdDatum>
-     32 zaznamPlatnostDoDatum>
-     32 zaznamIdentifikator>
-     32 prefLabel>
-     32 podOpatreniNazev>
-     32 podOpatreniKod>
-     32 inScheme>
-     32 <http://purl.org/dc/terms/title>
-     13 podOpatreniCislo>
+  64 type>
+  32 zaznamPlatnostOdDatum>
+  32 zaznamPlatnostDoDatum>
+  32 zaznamIdentifikator>
+  32 prefLabel>
+  32 podOpatreniNazev>
+  32 podOpatreniKod>
+  32 inScheme>
+  32 <http://purl.org/dc/terms/title>
+  13 podOpatreniCislo>
 
 ==> ciselnikPodopatreniCiselnikv01.txt <==
-     64 type>
-     32 podOpatreni>
-     32 <http://purl.org/dc/terms/title>
-     32 <http://purl.org/dc/terms/description>
+  64 type>
+  32 podOpatreni>
+  32 <http://purl.org/dc/terms/title>
+  32 <http://purl.org/dc/terms/description>
 
 ==> ciselnikPodprogramCEDRv01.txt <==
-    478 type>
-    239 zaznamPlatnostOdDatum>
-    239 zaznamPlatnostDoDatum>
-    239 zaznamIdentifikator>
-    239 prefLabel>
-    239 podprogramNazev>
-    239 podprogramKod>
-    239 inScheme>
-    239 <http://purl.org/dc/terms/title>
+ 478 type>
+ 239 zaznamPlatnostOdDatum>
+ 239 zaznamPlatnostDoDatum>
+ 239 zaznamIdentifikator>
+ 239 prefLabel>
+ 239 podprogramNazev>
+ 239 podprogramKod>
+ 239 inScheme>
+ 239 <http://purl.org/dc/terms/title>
 
 ==> ciselnikPodprogramCiselnikv01.txt <==
 
 ==> ciselnikPoskytovatelDotaceCiselnikAxisDotacePoskytovatelKodv01.txt <==
-    150 type>
-    150 poskytovatelDotace>
-    150 dotacePoskytovatelKod>
+ 150 type>
+ 150 poskytovatelDotace>
+ 150 dotacePoskytovatelKod>
 
 ==> ciselnikPoskytovatelDotaceCiselnikv01.txt <==
-    300 type>
-    150 poskytovatelDotace>
-    150 <http://purl.org/dc/terms/title>
-    150 <http://purl.org/dc/terms/description>
+ 300 type>
+ 150 poskytovatelDotace>
+ 150 <http://purl.org/dc/terms/title>
+ 150 <http://purl.org/dc/terms/description>
 
 ==> ciselnikPrioritaCiselnikv01.txt <==
-    152 type>
-     76 priorita>
-     76 <http://purl.org/dc/terms/title>
-     76 <http://purl.org/dc/terms/description>
+  70 type>
+  35 priorita>
+  35 <http://purl.org/dc/terms/title>
+  35 <http://purl.org/dc/terms/description>
 
 ==> ciselnikPrioritavCEDR01.txt <==
-    244 opatreni>
-    152 type>
-     76 zaznamPlatnostOdDatum>
-     76 zaznamPlatnostDoDatum>
-     76 zaznamIdentifikator>
-     76 prioritaNazev>
-     76 prioritaKod>
-     76 prefLabel>
-     76 inScheme>
-     76 <http://purl.org/dc/terms/title>
-      3 prioritaCislo>
+ 170 opatreni>
+  70 type>
+  35 zaznamPlatnostOdDatum>
+  35 zaznamPlatnostDoDatum>
+  35 zaznamIdentifikator>
+  35 prioritaNazev>
+  35 prioritaKod>
+  35 prefLabel>
+  35 inScheme>
+  35 <http://purl.org/dc/terms/title>
+   3 prioritaCislo>
 
 ==> ciselnikProgramPodporaCEDRv01.txt <==
 
 ==> ciselnikProgramPodporaCiselnikv01.txt <==
 
 ==> ciselnikRozpoctovaSkladbaParagrafCiselnikAxisParagrafRSKodv01.txt <==
-  33656 type>
-  33656 rozpoctovaSkladbaParagrafKod>
-  33656 rozpoctovaSkladbaParagraf>
+33656 type>
+33656 rozpoctovaSkladbaParagrafKod>
+33656 rozpoctovaSkladbaParagraf>
 
 ==> ciselnikRozpoctovaSkladbaParagrafCiselnikv01.txt <==
-  67290 type>
-  33656 rozpoctovaSkladbaParagraf>
-  33649 <http://purl.org/dc/terms/description>
-  33647 <http://purl.org/dc/terms/title>
+67290 type>
+33656 rozpoctovaSkladbaParagraf>
+33649 <http://purl.org/dc/terms/description>
+33647 <http://purl.org/dc/terms/title>
 
 ==> ciselnikRozpoctovaSkladbaParagrafv01.txt <==
-  67312 type>
-  33656 zaznamDatumPlatnostOd>
-  33656 zaznamDatumPlatnostDo>
-  33656 rozpoctovaSkladbaParagrafNazev>
-  33656 rozpoctovaSkladbaParagrafKod>
-  33656 rozpoctovaSkladbaParagrafCiselnikAxisParagrafRSKod>
-  33656 prefLabel>
-  33656 inScheme>
-  33656 <http://purl.org/dc/terms/title>
+67312 type>
+33656 zaznamDatumPlatnostOd>
+33656 zaznamDatumPlatnostDo>
+33656 rozpoctovaSkladbaParagrafNazev>
+33656 rozpoctovaSkladbaParagrafKod>
+33656 rozpoctovaSkladbaParagrafCiselnikAxisParagrafRSKod>
+33656 prefLabel>
+33656 inScheme>
+33656 <http://purl.org/dc/terms/title>
 
 ==> ciselnikRozpoctovaSkladbaPolozkaCiselnikAxisPolozkaRSKodv01.txt <==
-  12407 type>
-  12407 rozpoctovaSkladbaPolozkaKod>
-  12407 rozpoctovaSkladbaPolozka>
+12407 type>
+12407 rozpoctovaSkladbaPolozkaKod>
+12407 rozpoctovaSkladbaPolozka>
 
 ==> ciselnikRozpoctovaSkladbaPolozkaCiselnikv01.txt <==
-  24812 type>
-  12407 rozpoctovaSkladbaPolozka>
-  12406 <http://purl.org/dc/terms/title>
-  12405 <http://purl.org/dc/terms/description>
+24812 type>
+12407 rozpoctovaSkladbaPolozka>
+12406 <http://purl.org/dc/terms/title>
+12405 <http://purl.org/dc/terms/description>
 
 ==> ciselnikRozpoctovaSkladbaPolozkav01.txt <==
-  24814 type>
-  12407 zaznamDatumPlatnostOd>
-  12407 zaznamDatumPlatnostDo>
-  12407 rozpoctovaSkladbaPolozkaNazev>
-  12407 rozpoctovaSkladbaPolozkaKod>
-  12407 rozpoctovaSkladbaPolozkaCiselnikAxisPolozkaRSKod>
-  12407 prefLabel>
-  12407 inScheme>
-  12407 <http://purl.org/dc/terms/title>
+24814 type>
+12407 zaznamDatumPlatnostOd>
+12407 zaznamDatumPlatnostDo>
+12407 rozpoctovaSkladbaPolozkaNazev>
+12407 rozpoctovaSkladbaPolozkaKod>
+12407 rozpoctovaSkladbaPolozkaCiselnikAxisPolozkaRSKod>
+12407 prefLabel>
+12407 inScheme>
+12407 <http://purl.org/dc/terms/title>
 
 ==> ciselnikStatniRozpocetKapitolaCiselnikAxisKapitolaKodv01.txt <==
-   1157 type>
-   1157 statniRozpocetKapitolaKod>
-   1157 statniRozpocetKapitola>
+1157 type>
+1157 statniRozpocetKapitolaKod>
+1157 statniRozpocetKapitola>
 
 ==> ciselnikStatniRozpocetKapitolaCiselnikv01.txt <==
-   2314 type>
-   1157 statniRozpocetKapitola>
-   1157 <http://purl.org/dc/terms/title>
-   1157 <http://purl.org/dc/terms/description>
+2314 type>
+1157 statniRozpocetKapitola>
+1157 <http://purl.org/dc/terms/title>
+1157 <http://purl.org/dc/terms/description>
 
 ==> ciselnikStatniRozpocetKapitolav01.txt <==
-   2314 type>
-   1157 zaznamDatumPlatnostOd>
-   1157 zaznamDatumPlatnostDo>
-   1157 statniRozpocetKapitolaNazev>
-   1157 statniRozpocetKapitolaKod>
-   1157 prefLabel>
-   1157 inScheme>
-   1157 <http://purl.org/dc/terms/title>
+2314 type>
+1157 zaznamDatumPlatnostOd>
+1157 zaznamDatumPlatnostDo>
+1157 statniRozpocetKapitolaNazev>
+1157 statniRozpocetKapitolaKod>
+1157 prefLabel>
+1157 inScheme>
+1157 <http://purl.org/dc/terms/title>
 
 ==> ciselnikStatniRozpocetUkazatelCiselnikAxisKapitolaKodUkazatelSRKodv01.txt <==
-  15389 type>
-  15389 statniRozpocetUkazatelKod>
-  15389 statniRozpocetUkazatel>
-  15389 statniRozpocetKapitolaKod>
+15389 type>
+15389 statniRozpocetUkazatelKod>
+15389 statniRozpocetUkazatel>
+15389 statniRozpocetKapitolaKod>
 
 ==> ciselnikStatniRozpocetUkazatelCiselnikAxixKapitolaKodv01.txt <==
-  15389 type>
-  15389 statniRozpocetUkazatelCiselnikAxisKapitolaKodUkazatelSRKod>
-  15389 statniRozpocetKapitolaKod>
+15389 type>
+15389 statniRozpocetUkazatelCiselnikAxisKapitolaKodUkazatelSRKod>
+15389 statniRozpocetKapitolaKod>
 
 ==> ciselnikStatniRozpocetUkazatelCiselnikv01.txt <==
-  30774 type>
-  15389 statniRozpocetUkazatel>
-  15388 <http://purl.org/dc/terms/description>
-  15387 <http://purl.org/dc/terms/title>
+30774 type>
+15389 statniRozpocetUkazatel>
+15388 <http://purl.org/dc/terms/description>
+15387 <http://purl.org/dc/terms/title>
 
 ==> ciselnikStatniRozpocetUkazatelv01.txt <==
-  30778 type>
-  15389 zaznamDatumPlatnostOd>
-  15389 zaznamDatumPlatnostDo>
-  15389 statniRozpocetUkazatelNazev>
-  15389 statniRozpocetUkazatelKod>
-  15389 statniRozpocetUkazatelCiselnikAxisKapitolaKodUkazatelSRKod>
-  15389 statniRozpocetKapitolaKod>
-  15389 statniRozpocetKapitolaCiselnikAxisKapitolaKod>
-  15389 prefLabel>
-  15389 inScheme>
-  15389 <http://purl.org/dc/terms/title>
-   5320 statniRozpocetUkazatelNadrizenyKod>
+5320 statniRozpocetUkazatelNadrizenyKod>
+30778 type>
+15389 zaznamDatumPlatnostOd>
+15389 zaznamDatumPlatnostDo>
+15389 statniRozpocetUkazatelNazev>
+15389 statniRozpocetUkazatelKod>
+15389 statniRozpocetUkazatelCiselnikAxisKapitolaKodUkazatelSRKod>
+15389 statniRozpocetKapitolaKod>
+15389 statniRozpocetKapitolaCiselnikAxisKapitolaKod>
+15389 prefLabel>
+15389 inScheme>
+15389 <http://purl.org/dc/terms/title>
 
 ==> ciselnikUcelZnakCiselnikAxisUcelZnakKodv01.txt <==
-  13410 ucelZnakKod>
-  13410 ucelZnak>
-  13410 type>
+13425 ucelZnakKod>
+13425 ucelZnak>
+13425 type>
 
 ==> ciselnikUcelZnakCiselnikv01.txt <==
-  26818 type>
-  13410 ucelZnak>
-  13409 <http://purl.org/dc/terms/description>
-  13408 <http://purl.org/dc/terms/title>
+26848 type>
+13425 ucelZnak>
+13424 <http://purl.org/dc/terms/description>
+13423 <http://purl.org/dc/terms/title>
 
 ==> ciselnikUcelZnakv01.txt <==
-  26820 type>
-  13410 zaznamDatumPlatnostOd>
-  13410 zaznamDatumPlatnostDo>
-  13410 ucelZnakNazev>
-  13410 ucelZnakKod>
-  13410 ucelZnakCiselnikAxisUcelZnakKod>
-  13410 prefLabel>
-  13410 inScheme>
-  13410 <http://purl.org/dc/terms/title>
-  10842 statniRozpocetKapitolaKod>
-  10842 statniRozpocetKapitolaCiselnikAxisKapitolaKod>
-    100 dotaceTitul>
-
-==> CizinecFO.txt <==
-    242 type>
-    121 <http://purl.org/dc/terms/title>
-
-==> CizinecFOP.txt <==
-    114 type>
-     38 <http://purl.org/dc/terms/title>
-
-==> CizinecPO.txt <==
-    644 type>
-    322 <http://purl.org/dc/terms/title>
-
-==> Dotace.txt <==
-1975973 byloRozhodnuto>
-1577627 zmenaSmlouvaIndikator>
-1577627 zaznamPlatnostDatum>
-1577627 zaznamIdentifikator>
-1577627 zaznamAktualizaceDatumCas>
-1577627 type>
-1577627 smlouvaPodpisDatum>
-1577627 projektIdentifikator>
-1577627 <http://purl.org/dc/terms/title>
-1570382 projektKod>
- 938713 subjektRozliseniKod>
- 814163 podaniDatum>
- 294098 projektNazev>
- 257249 zahajeniSkutecneDatum>
- 225244 ukonceniSkutecneDatum>
- 131749 zahajeniPlanovaneDatum>
- 111268 operacniProgram>
-  91250 realizovanNaUzemi>
-  87736 ukonceniPlanovaneDatum>
-  77097 program>
-  65901 priorita>
-  65901 opatreni>
-  50098 clenenNaEtapu>
-  13026 podOpatreni>
-   5326 podprogram>
-   3937 projektNadrizenyIdentifikator>
-    970 grantoveSchema>
-    609 poznamka>
-
-==> Etapa.txt <==
-  50098 zaznamIdentifikator>
-  50098 zaznamAktualizaceDatumCas>
-  50098 zahajeniPlanovaneDatum>
-  50098 ukonceniPlanovaneDatum>
-  50098 type>
-  50098 etapaNazev>
-  50098 etapaIdentifikator>
-  50098 <http://purl.org/dc/terms/title>
-  50013 zahajeniSkutecneDatum>
-  50013 ukonceniSkutecneDatum>
-  48297 poznamka>
-
-==> FyzickaOsoba.txt <==
- 138962 type>
-  69481 <http://purl.org/dc/terms/title>
-
-==> FyzickaOsobaPodnikajici.txt <==
-1039395 type>
- 346390 <http://purl.org/dc/terms/title>
-
-==> PravnickaOsoba.txt <==
-1211720 type>
- 605860 <http://purl.org/dc/terms/title>
-
-==> PrijemcePomoci.txt <==
-1577627 obdrzelDotaci>
-1024482 zaznamPlatnostDatum>
-1024482 zaznamIdentifikator>
-1024482 zaznamAktualizaceDatumCas>
-1024482 type>
-1024482 jeRegistrovanSPravniFormou>
-1024482 jePrislusnikStatu>
- 954988 obchodniJmeno>
- 954988 legalName>
- 922072 ico>
- 599087 sidliNaAdrese>
- 418090 maTrvaleBydlisteNaAdrese>
- 416093 prijmeni>
- 416093 jmeno>
- 416093 <http://xmlns.com/foaf/0.1/lastName>
- 416093 <http://xmlns.com/foaf/0.1/firstName>
-   6770 dic>
-
-==> PrijemcePomociAres.txt <==
- 922072 sameAs>
-
-==> PrijemcePomociRob.txt <==
- 694902 sameAs>
-
-==> Rozhodnuti.txt <==
-2104574 rozpoctoveObdobi>
-1975973 zaznamPlatnostDatum>
-1975973 zaznamIdentifikator>
-1975973 zaznamAktualizaceDatumCas>
-1975973 type>
-1975973 rokRozhodnuti>
-1975973 refRozhodnutiRok>
-1975973 navratnostIndikator>
-1975973 menaKod>
-1975973 investiceIndikator>
-1975973 financovanoZeZdroje>
-1975973 financniProstredekCleneni>
-1975973 dotaciPoskytl>
-1975969 castkaRozhodnuta>
-1975969 <http://purl.org/dc/terms/title>
-1877933 maSmlouvuORozhodnuti>
- 902236 castkaPozadovana>
-    703 splatkaKalendar>
-
-==> RozhodnutiSmlouva.txt <==
-1877933 zaznamIdentifikator>
-1877933 zaznamAktualizaceDatumCas>
-1877933 type>
-1877933 rozhodnutiDatum>
-1877933 dokumentDruhKod>
-1877933 cisloJednaciRozhodnuti>
-1877933 <http://purl.org/dc/terms/title>
-
-==> RozpoctoveObdobi.txt <==
-2104574 zaznamPlatnostDatum>
-2104574 zaznamIdentifikator>
-2104574 zaznamAktualizaceDatumCas>
-2104574 type>
-2104574 rozpocetObdobi>
-2104574 refRozpoctoveObdobi>
-2104574 menaKod>
-2104574 <http://purl.org/dc/terms/title>
-2101894 castkaUvolnena>
-2098187 castkaCerpana>
-2031763 castkaSpotrebovana>
-1610623 dotaceTitul>
-  40922 ucelZnak>
-  25259 castkaVracena>
-
-==> SplatkaKalendar.txt <==
-    703 zaznamIdentifikator>
-    703 zaznamAktualizaceDatumCas>
-    703 uroceniIndikator>
-    703 type>
-    703 castkaSplatkaSkutecna>
-    703 castkaSplatkaPlanovana>
-
-==> UzemniRealizace.txt <==
-  91250 zaznamPlatnostDatum>
-  91250 zaznamIdentifikator>
-  91250 zaznamAktualizaceDatumCas>
-  91250 type>
-  91250 okresNutsKod>
+26850 type>
+13425 zaznamDatumPlatnostOd>
+13425 zaznamDatumPlatnostDo>
+13425 ucelZnakNazev>
+13425 ucelZnakKod>
+13425 ucelZnakCiselnikAxisUcelZnakKod>
+13425 prefLabel>
+13425 inScheme>
+13425 <http://purl.org/dc/terms/title>
+10847 statniRozpocetKapitolaKod>
+10847 statniRozpocetKapitolaCiselnikAxisKapitolaKod>
+ 100 dotaceTitul>
