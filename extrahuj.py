@@ -150,22 +150,22 @@ jméno n3 souboru v něm, seznam sloupců a název
 výsledného souboru.
 """
 
-# print('Načítám data')
+print('Načítám data')
 
-# if not os.path.isdir('csv'):
-#     os.mkdir('csv')
+if not os.path.isdir('csv'):
+    os.mkdir('csv')
 
-# with open('extrahuj.csv') as cf:
-#     cr = csv.reader(cf)
-#     hd = next(cr)
+with open('extrahuj.csv') as cf:
+    cr = csv.reader(cf)
+    hd = next(cr)
 
-#     ex = [{hd[j]: vl for j,vl in enumerate(row)} for row in cr]
+    ex = [{hd[j]: vl for j,vl in enumerate(row)} for row in cr]
 
-# for j, ee in enumerate(ex):
-#     print('\nProcesuju %s (%d/%d)' % (ee['targz'], j+1, len(ex)))
-#     with tarfile.open(ee['targz'], 'r:gz') as tf:
-#         ff = tf.extractfile(ee['soubor'])
-#         extrahuj(ff, ee['chcem'].split(', '), ee['cil'])
+for j, ee in enumerate(ex):
+    print('\nProcesuju %s (%d/%d)' % (ee['targz'], j+1, len(ex)))
+    with tarfile.open(ee['targz'], 'r:gz') as tf:
+        ff = tf.extractfile(ee['soubor'])
+        extrahuj(ff, ee['chcem'].split(', '), ee['cil'])
 
 
 # Vazby
