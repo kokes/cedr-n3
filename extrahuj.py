@@ -45,6 +45,7 @@ def extrahuj(ff, chces, tfn):
      - tfn: název souboru, kam se to bude sypat
     """
     ns = '<http://cedropendata.mfcr.cz/c3lod/'
+    ns2 = '<http://reference.data.gov.uk/doc/'
     
     schces = set(chces)
     lc = len(chces)
@@ -79,8 +80,14 @@ def extrahuj(ff, chces, tfn):
 
         assert els[2][0] in ['<', '"']
         if els[2][0] == '<':
-            assert els[2].startswith(ns), els[2]
-            trd = cdt[els[2][1:-1]]
+            assert els[2].startswith(ns) or els[2].startswith(ns2), els[2]
+            # gov.uk:
+            if els[2].startswith(ns2):
+                if not els[2].startswith('<http://reference.data.gov.uk/doc/year/'):
+                    raise KeyError('pro gov.uk umime jen roky, a to rucne, protoze nemame ciselnik, dostal sem %s' % els[2])
+                trd = els[2][-5:-1]
+            else:
+                trd = cdt[els[2][1:-1]]
             #trd = els[2][len(ns):-1] # -1 pro trimovani '>'
             #trd = els[2][els[2].rindex('/')+1:-1] # id po slovese
         else:
@@ -143,28 +150,32 @@ jméno n3 souboru v něm, seznam sloupců a název
 výsledného souboru.
 """
 
-print('Načítám data')
+# print('Načítám data')
 
-if not os.path.isdir('csv'):
-    os.mkdir('csv')
+# if not os.path.isdir('csv'):
+#     os.mkdir('csv')
 
-with open('extrahuj.csv') as cf:
-    cr = csv.reader(cf)
-    hd = next(cr)
+# with open('extrahuj.csv') as cf:
+#     cr = csv.reader(cf)
+#     hd = next(cr)
 
-    ex = [{hd[j]: vl for j,vl in enumerate(row)} for row in cr]
+#     ex = [{hd[j]: vl for j,vl in enumerate(row)} for row in cr]
 
-for j, ee in enumerate(ex):
-    print('\nProcesuju %s (%d/%d)' % (ee['targz'], j+1, len(ex)))
-    with tarfile.open(ee['targz'], 'r:gz') as tf:
-        ff = tf.extractfile(ee['soubor'])
-        extrahuj(ff, ee['chcem'].split(', '), ee['cil'])
+# for j, ee in enumerate(ex):
+#     print('\nProcesuju %s (%d/%d)' % (ee['targz'], j+1, len(ex)))
+#     with tarfile.open(ee['targz'], 'r:gz') as tf:
+#         ff = tf.extractfile(ee['soubor'])
+#         extrahuj(ff, ee['chcem'].split(', '), ee['cil'])
 
 
 # Vazby
 # =====
 
 print('Načítám vazby')
+
+with tarfile.open('./data/Rozhodnuti.n3.tar.gz', 'r:gz') as tf:
+    ff = tf.extractfile('./cedr/Rozhodnuti.n3')
+    cti_vazby(ff, 'rozpoctoveObdobi', 'csv/_rozpoctoveObdobi.csv')
 
 with tarfile.open('./data/PrijemcePomoci.n3.tar.gz', 'r:gz') as tf:
     ff = tf.extractfile('./cedr/PrijemcePomoci.n3')
