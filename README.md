@@ -1,4 +1,6 @@
-# CEDR
+**Původně se tu skladovaly skripty na zpracování databáze CEDR, když ještě vdata byla tzv. linked data, která ne každý uměl zpracovat. MVČR v mezičase vydalo datasety v CSV, takže je místní postup zbytečný, můžete jít rovnou ke zpracování v dalších nástrojích. Já [zvlášť v repu](https://github.com/kokes/cedr) ukazuju, jak na to. Hodně zábavy.**
+
+----
 
 MFČR nabízí kompletní databázi dotací, CEDR, je ale poněkud složitá na technické a metodologické zpracování. Zde je rychlý přehled jak z N3 dumpů vytvořit CSV soubory, které jde dál jednoduše zpracovat.
 
